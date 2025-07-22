@@ -2,6 +2,7 @@
 
 ![PhoneRecon Banner](https://img.shields.io/badge/status-in%20development-orange)  
 **Author:** IanNarito 
+
 **Description:**  
 PhoneRecon is a powerful OSINT tool that digs into public data tied to phone numbers and returns detailed recon — geolocation, carrier, social media presence, and scam detection. Built for ethical hackers, investigators, and curious minds.
 
