@@ -14,6 +14,7 @@ PhoneRecon is a powerful OSINT tool that digs into public data tied to phone num
 - 🌍 Geolocation (Country, Region, City)
 - 👥 Social media presence (WhatsApp, Telegram)
 - 🚨 Scam/fraud detection via open intelligence
+- 📝 JSON result export
 - 🔒 CLI-based for stealthy ops
 
 ---
@@ -26,3 +27,5 @@ git clone https://github.com/yourusername/phonerecon.git
 cd phonerecon
 pip3 install -r requirements.txt
 python3 phonerecon.py +639123456789
+or
+python3 phonerecon.py +639123456789 --json
