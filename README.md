@@ -14,7 +14,6 @@ PhoneRecon is a powerful OSINT tool that digs into public data tied to phone num
 - 🌍 Geolocation (Country, Region, City)
 - 👥 Social media presence (WhatsApp, Telegram)
 - 🚨 Scam/fraud detection via open intelligence
-- 📝 JSON result export
 - 🔒 CLI-based for stealthy ops
 
 ---
