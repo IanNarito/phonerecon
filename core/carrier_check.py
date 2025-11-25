@@ -9,7 +9,7 @@ def get_carrier_info(phone_number):
 
     try:
         print("[•] Fetching carrier info...")
-        API_KEY = "1c7cc8262d88a5c663839e4f4d46e5e9"  # Replace this with your actual NumVerify API key
+        API_KEY = "1c7cc8262d88a5c663839e4f4d46e5e9"  
         url = f"http://apilayer.net/api/validate?access_key={API_KEY}&number={phone_number}"
 
         response = requests.get(url)
@@ -26,3 +26,4 @@ def get_carrier_info(phone_number):
         print(f"[!] Carrier check failed: {e}")
 
     return result
+
