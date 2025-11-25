@@ -10,7 +10,7 @@ def check_scam_reports(phone_number):
 
     try:
         print("[•] Checking for scam/fraud reports...")
-        API_KEY = "RjpsWitHSPsJX0ECKp3sdNLEaMkn4JI2"  # ipqualityscore.com
+        API_KEY = "RjpsWitHSPsJX0ECKp3sdNLEaMkn4JI2" 
         url = f"https://ipqualityscore.com/api/json/phone/{API_KEY}/{phone_number}"
 
         response = requests.get(url)
@@ -28,3 +28,4 @@ def check_scam_reports(phone_number):
         print(f"[!] Scam check failed: {e}")
 
     return result
+
